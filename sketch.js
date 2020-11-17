@@ -19,7 +19,7 @@ let classifier;
 
 // Model URL
 // classes: rainbow, me, empty
-let imageModelURL = 'https://teachablemachine.withgoogle.com/models/WKbRoq_kR/' // TRAIN THIS A NEW!
+let imageModelURL = 'https://teachablemachine.withgoogle.com/models/WKbRoq_kR/' // TRAIN THIS A NEW
 
 // Video
 let video;
@@ -106,7 +106,7 @@ function gotResult(error, results) {
   // The results are in an array ordered by confidence.
   //console.log(results[0]);
   label = results[0].label;
-  // Classify again!
+  // Classifiy again!
   classifyVideo();
   flippedVideo.remove() 
 }

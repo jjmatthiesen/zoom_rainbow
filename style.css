@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.transparent {
+  opacity: 0.1;
+  transition: 0.5s;
+}
